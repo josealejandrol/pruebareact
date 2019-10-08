@@ -1,8 +1,8 @@
+import React,{Component} from 'react';
 
-
-const Grettings = (props) => {
+const Grettings = ({persona}) => {
 	return(
-		<p>Hola</p>
+		<p>Hola {persona}</p>
 	)
 }
 

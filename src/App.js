@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Gretting from './components//Grettings.js';
+import Grettings from './components//Grettings.js';
 
 function App() {
   return (
@@ -19,8 +19,10 @@ function App() {
         >
           Learn React
         </a>
+
+        <Grettings persona={"César"} />
+        <Grettings persona={"José"} />
       </header>
-      <Grettings props.nombre={"César"} />
     </div>
   );
 }
